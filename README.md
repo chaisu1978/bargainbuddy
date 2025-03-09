@@ -2,6 +2,26 @@
 
 Bargain Buddy V2 ports the existing Bargain Buddy enpoints to a new API first architecture, as well as implements a React Frontend. The project is split into two main parts: the backend and the frontend. The backend is a RESTful API built with Django and DRF with JWT; and the frontend is a React application. The backend is responsible for handling all the business logic and data storage, while the frontend is responsible for displaying the data to the user and handling user interactions.
 
+## .env file
+
+create an .env file in the root of the project with the following variables:
+
+```bash
+DJANGO_DEBUG=True
+DJANGO_ALLOWED_HOSTS=*
+DB_HOST=db
+DB_NAME=devdb
+DB_USER=devuser
+DB_PASS=devpass
+DJANGO_SECRET_KEY="django-key-goes-here"
+POSTGRES_DB=devdb
+POSTGRES_USER=devuser
+POSTGRES_PASSWORD=devpass
+DOMAIN='http://localhost:8000'
+NOMINATIM_PASSWORD=nominatim_password
+PBF_URL=https://download.geofabrik.de/central-america-latest.osm.pbf
+```
+
 ## Backend
 
 The backend is a RESTful API built with Django and Django Rest Framework. The API is responsible for handling all the business logic and data storage. The API is built with JWT authentication.
