@@ -1,6 +1,6 @@
 # Bargain Buddy v2
 
-Bargain Buddy V2 ports the existing Bargain Buddy enpoints to a new API first architecture, as well as implements a React Frontend. The project is split into two main parts: the backend and the frontend. The backend is a RESTful API built with Django and DRF with JWT; and the frontend is a React application. The backend is responsible for handling all the business logic and data storage, while the frontend is responsible for displaying the data to the user and handling user interactions.
+Bargin Buddy V2 is a project that aims to provide a platform for users to find and share deals on products. Bargain Buddy V2 ports the existing Bargain Buddy enpoints to a new API first architecture, as well as implements a React Frontend. The project is split into two main parts: the backend and the frontend. The backend is a RESTful API built with Django and DRF with JWT; and the frontend is a React application. The backend is responsible for handling all the business logic and data storage, while the frontend is responsible for displaying the data to the user and handling user interactions.
 
 ## .env file
 
