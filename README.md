@@ -31,7 +31,7 @@ PBF_URL=https://download.geofabrik.de/central-america-latest.osm.pbf
 create an .env.development file in the frontend directory with the following variables:
 
 ```bash
-VITE_API_BASE_URL=http://192.168.1.104:8000/api
+VITE_API_BASE_URL=http://localhost:8000/api
 
 ```
 
