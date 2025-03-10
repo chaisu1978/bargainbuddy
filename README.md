@@ -48,7 +48,7 @@ The frontend is a React application that is responsible for displaying the data 
 To run the backend with Docker, you need to have Docker installed on your machine. You can install Docker from [here](https://docs.docker.com/get-docker/).
 
 1. Clone the repository
-2. Navigate to the `backend` directory
+2. Navigate to the repository's root directory directory
 3. Run the following command to build the Docker image:
 
    ```bash
